@@ -1,0 +1,8 @@
+#/bin/sh
+
+cat << EOT >> /home/vagrant/.ssh/authorized_keys
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCuwPnT0K4lOY0FW/we2iR9RfPDXni4pXnOplsi1/UhcrXRf2WK9fz10i1gXUoAQz8XPbJoXBlMh+IDWQ1fjg47R7g0jFDtZyP1Ll8L30uIEBVgdb7k+U164ueZPaGQ00zSvITKwkAdIKmOxAtXq+ytJetIqrU3iWvtzAUHa4G7EqIJBrNvDZjZtDZaqCTegEBaUv98H8Lyo2a3XMZXBgLgBRhj04ZAh6FN8oagV1FpV+1tJQ5Fp4gKsvbFKD/ikq0glS3ruTv6LL34xuKYuKBiTQFmgCBTGDiX+j2oYi55Y7i57OPsDMBGSdB/0e8NAd9thAjHF49+9P8/YENHZuDd vagrant@control-node
+EOT
+
+
+# vagrant reload --provision para forçar a execução do arquivo de provisionamento
